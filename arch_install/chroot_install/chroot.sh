@@ -41,11 +41,13 @@ hwclock --systohc
 echo '' && echo ''
 echo '************************************************'
 echo '************************************************'
-echo '**************** NetworkManager'
+echo '**************** NetworkManager, NTP, SSH'
 echo '************************************************'
 echo '************************************************'
-pacman -Syy --noconfirm networkmanager
+pacman -Syyu --noconfirm networkmanager ntp openssh
 systemctl enable NetworkManager
+systemctl enable ntpd
+systemctl enable sshd
 
 echo '' && echo ''
 echo '************************************************'
@@ -76,6 +78,18 @@ sed -i 's%#IgnorePkg   =%IgnorePkg = postgresql postgresql-libs %g' /etc/pacman.
 echo '' && echo ''
 echo '************************************************'
 echo '************************************************'
+echo '**************** YAY (need to be after eric creation)'
+echo '************************************************'
+echo '************************************************'
+pacman -Syyu --noconfirm git
+su - eric -c "cd /home/eric && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -csi --noconfirm --skippgpcheck && cd .."
+rm -rf /home/eric/yay
+
+
+
+echo '' && echo ''
+echo '************************************************'
+echo '************************************************'
 echo '**************** Boot configuration'
 echo '************************************************'
 echo '************************************************'
@@ -94,10 +108,7 @@ echo '************************************************'
 echo '**************** Package installations'
 echo '************************************************'
 echo '************************************************'
-/chroot_install/040-yay.sh
 if [ "$DESKTOP" == "gnome" ]; then /chroot_install/100-gnome-shell.sh; fi
-/chroot_install/110-openssh.sh
-/chroot_install/120-ntp.sh
 if [ "$HARDWARE" == "vbox" ]; then /chroot_install/130-virtualbox.sh $LTS; fi
 if [ "$HARDWARE" == "vmware" ]; then /chroot_install/130-vmware.sh; fi
 /chroot_install/200-software.sh
