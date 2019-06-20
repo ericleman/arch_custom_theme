@@ -6,7 +6,7 @@ echo "################################################################"
 pacman -Syyu --noconfirm
 pacman -S open-vm-tools xf86-video-vmware --noconfirm --needed
 
-cat > /etc/systemd/system/share-vmware-folder.service <<EOF
+cat > /etc/systemd/system/share-vmware-folder.service <<EOF
 [Unit]
 Description=Load VMware shared folders
 Requires=vmware-vmblock-fuse.service
