@@ -115,4 +115,6 @@ if [ "$HARDWARE" == "vmware" ]; then /chroot_install/130-vmware.sh; fi
 /chroot_install/200-software.sh
 /chroot_install/300-AUR.sh
 
+/chroot_install/500-gnome-settings.sh
+/chroot_install/600-other-personal-settings.sh
 

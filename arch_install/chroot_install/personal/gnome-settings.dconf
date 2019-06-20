@@ -1,0 +1,226 @@
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+logout='<Super>x'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Shift><Super>Return'
+command='nautilus'
+name='nautilus'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>F2'
+command='code'
+name='code'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>Return'
+command='gnome-terminal'
+name='gnome-terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Super>F3'
+command='chromium'
+name='chromium'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+overrides={'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'menu:minimize,maximize,close'>}
+antialiasing='grayscale'
+hinting='slight'
+
+[org/gnome/settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[org/gnome/shell]
+#enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'TopIcons@huttli', 'my-extensions@eric.leman', 'no-title-bar@franglais125.gmail.com', 'gnomeGlobalAppMenu@lestcape']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'TopIcons@huttli', 'my-extensions@eric.leman'] #, 'no-title-bar@franglais125.gmail.com', 'gnomeGlobalAppMenu@lestcape']
+command-history=['lg', 'restart', 'lg', 'restart', 'lg', 'r', 'lg', 'r', 'lg', 'r']
+looking-glass-history=['2+2', '1+1', 'r(2)', 'global', 'global.get_window_actors()', 'get_window_actors()', 'global.get_current_time', 'global.get_current_time()', 'global', "Main.notify('Hello world')", 'Main', 'Shell', 'Shell.Global', 'Shell.Global.get_current_time()', 'eric=Shell.Global', 'eric', 'eric()', 'eric=new Shell.Global()', 'windows', 'windows=global.get_window_actors()', 'windows.length', 'windows[0]', 'windows[0].name', 'windows[1].name', 'windows[2].name', 'windows[2].get_meta_window', 'windows[2].get_meta_window()', 'windows[2].get_meta_window().get_workspace()', 'windows[2].get_meta_window().get_wm_class', 'windows[2].get_meta_window().get_wm_class()', 'windows[0].get_meta_window().get_wm_class()', 'windows[0].meta_window', 'windows[0].meta_window.wm_class', 'windows[0].meta_window.window_type', 'windows[0].meta_window.get_maximized()', 'Meta.WindowType', 'Meta.WindowType.NORMAL', 'Meta.WindowType.BOTH', 'Meta.MaximizeFlags', 'Meta.MaximizeFlags.BOTH', 'windows[0].meta_window.get_workspace()', 'windows[0].meta_window.get_workspace().list_windows()', 'windows[0].meta_window.get_workspace().index()', 'windows[0].meta_window.change_workspace_by_index(1)', 'windows[0].meta_window.change_workspace_by_index(1,true)', 'windows[0].meta_window.change_workspace_by_index(0,true)', 'windows[0].meta_window.change_workspace_by_index(0,false)', 'global.get_window_actors().forEach().get_meta_window', 'global.get_window_actors().forEach().get_meta_window()', 'global.get_window_actors().map(get_meta_window)', 'function getMetaWindow(w) {return w.get_meta_window();}', 'global.get_window_actors().map(getMetaWindow)', 'getMetaWindow(windows[0])', 'getMetaWindow', 'var getMetaWindow = function getMetaWindow(w) {return w.get_meta_window();}', 'getMetaWindow', 'var getMetaWindow = function(w) {return w.get_meta_window();}', 'getMetaWindow', 'getMetaWindow = function(w) {return w.get_meta_window();}', 'getMetaWindow', 'global.get_window_actors().map(getMetaWindow)', 'global.get_window_actors().map(getMetaWindow).map(getWorkspace)', 'getWorkSpace = function(w) {return w.get_workspace()}', 'getWorkspace = function(w) {return w.get_workspace()}', 'global.get_window_actors().map(getMetaWindow).map(getWorkspace)', 'getWorkspaceIndex = function(w) {return w.get_meta_window().get_workspace().index()}', 'global.get_windows_actors().map(getWorkspaceIndex)', 'global.get_windows_actors()', 'global', 'global.get_window_actors().map(getMetaWindow).map(getWorkspace)', 'global.get_window_actors().map(getWorkspaceIndex)', 'Math.max(1,2,1)', 'Math.max(global.get_window_actors().map(getWorkspaceIndex))', 'Math.max.apply(null,global.get_window_actors().map(getWorkspaceIndex))', 'windows[0].meta_window.change_workspace_by_index(2)', 'windows[0].meta_window.change_workspace_by_index(2,true)', 'windows[0].meta_window.change_workspace_by_index(0,false)', 'windows[0].meta_window.change_workspace_by_index(1,false)', 'windows[0].meta_window.get_workspace().list_windows().length', 'windows=global.get_window_actors()', 'windows[0]', 'windows[0].meta_window.window_type', 'windows[0].meta_window.get_wm_class', 'windows[0].meta_window.get_wm_class()', 'Math.max.apply(null,global.get_window_actors().map(getWorkspaceIndex)) + 1', 'global.workspace_manager', 'let workspaceManager = global.workspace_manager;', 'workspaceManager.n_workspaces', 'global.workspace_manager()', 'global.get_window_actors()', 'global.workspace_manager', 'global.get_window_actors()', 'global.workspace_manager()', 'global.screen', 'global.screen.workspace_manager', 'global.screen.get_active_workspace_index()', 'global.screen.', 'global.screen.get_active_workspace_index(1)', 'global.screen.get_workspace_index()', 'global.screen.get_workspace_by_index()', 'global.screen.get_workspace_by_index(1)', 'global.screen.get_workspace_by_index(0)', 'destWS=global.screen.getworkspace_by_index(0)', 'destWS=global.screen.get_workspace_by_index(0)', 'destWS.activate()', 'ws', 'global.get_current_time()', 'destWS.activate(global.get_current_time())']
+disable-user-extensions=false
+app-picker-view=uint32 1
+favorite-apps=['chromium.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'vscodium-bin.desktop']
+
+[org/gnome/shell/window-switcher]
+current-workspace-only=false
+app-icon-mode='both'
+
+[org/gnome/shell/extensions/user-theme]
+name='Materia-light-compact'
+
+[org/gnome/shell/extensions/dash-to-dock]
+show-windows-preview=true
+autohide-in-fullscreen=true
+animate-show-apps=true
+shift-click-action='minimize'
+shift-middle-click-action='launch'
+customize-alphas=true
+extend-height=false
+preferred-monitor=0
+force-straight-corner=false
+click-action='cycle-windows'
+middle-click-action='launch'
+intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+show-apps-at-top=false
+show-running=true
+max-alpha=0.80000000000000004
+custom-background-color=true
+show-show-apps-button=true
+show-favorites=true
+apply-custom-theme=false
+transparency-mode='DYNAMIC'
+custom-theme-shrink=false
+background-opacity=0.33000000000000002
+running-indicator-style='DEFAULT'
+dash-max-icon-size=48
+background-color='#000000'
+icon-size-fixed=false
+isolate-workspaces=false
+
+#[org/gnome/shell/extensions/no-title-bar]
+#automatic-theme=true
+#change-appmenu=false
+#buttons-for-all-win=false
+#hide-buttons=false
+
+[org/gnome/shell/extensions/topicons]
+tray-pos='right'
+
+[org/gnome/books]
+window-position=[275, 219]
+window-maximized=false
+window-size=[768, 600]
+
+[org/gnome/nautilus/preferences]
+search-view='list-view'
+default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+maximized=true
+initial-size=(890, 555)
+
+[org/gnome/nautilus/list-view]
+default-visible-columns=['name', 'size', 'date_modified', 'starred']
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency', 'starred']
+
+[org/gnome/calendar]
+window-position=(0, 24)
+active-view='month'
+window-maximized=true
+window-size=(1920, 944)
+
+[org/gnome/evolution-data-server]
+network-monitor-gio-name=''
+migrated=true
+
+[org/gnome/desktop/interface]
+font-name='Roboto 11'
+document-font-name='Roboto Condensed, 11'
+show-battery-percentage=true
+gtk-im-module='gtk-im-context-simple'
+clock-show-seconds=false
+cursor-theme='capitaine-cursors'
+icon-theme='Papirus'
+monospace-font-name='DejaVu Sans Mono Bold 11'
+enable-animations=true
+gtk-theme='Materia-light-compact'
+clock-show-date=true
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-tweaks', 'pamac-updater', 'atom']
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/pamac-updater]
+application-id='pamac-updater.desktop'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'Sundry', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+translate=true
+categories=['X-GNOME-Utilities']
+apps=['org.gnome.baobab.desktop', 'deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'org.gnome.FileRoller.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Screenshot.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'yelp.desktop']
+name='X-GNOME-Utilities.directory'
+
+[org/gnome/desktop/app-folders/folders/Sundry]
+translate=true
+categories=['X-GNOME-Sundry']
+apps=['alacarte.desktop', 'authconfig.desktop', 'ca.desrt.dconf-editor.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'nm-connection-editor.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-printer.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+name='X-GNOME-Sundry.directory'
+
+[org/gnome/desktop/app-folders/folders/YaST]
+translate=true
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+
+[org/gnome/desktop/peripherals/mouse]
+speed=0.1063829787234043
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+num-workspaces=2
+titlebar-font='Roboto Bold 11'
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/gnome/Icescape.jpg'
+primary-color='#ffffff'
+picture-options='zoom'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'fr')]
+xkb-options=@as []
+
+[org/gnome/control-center]
+last-panel='keyboard'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(131,148,150)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+bold-is-bright=false
+cursor-shape='block'
+use-system-font=false
+use-theme-colors=false
+use-transparent-background=true
+font='DejaVu Sans Mono 10'
+scrollback-unlimited=true
+cursor-blink-mode='system'
+background-color='rgb(0,43,54)'
+background-transparency-percent=9
+scrollbar-policy='never'
+
+[org/gnome/terminal/legacy]
+schema-version=uint32 3
+
+[org/gnome/software]
+check-timestamp=int64 1534393227
+
+[org/gnome/mutter]
+overlay-key='Super_L'
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+sidebar-width=174
+window-position=(360, 122)
+show-size-column=true
+show-hidden=true
+window-size=(640, 413)
+sort-directories-first=false
+date-format='regular'
+sort-order='ascending'
+location-mode='path-bar'
+
+[org/gtk/settings/color-chooser]
+selected-color=(true, 0.0, 0.0, 0.0, 1.0)
+
+
+[org/gnome/GWeather]
+temperature-unit='centigrade'

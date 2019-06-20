@@ -5,5 +5,12 @@ echo "################################################################"
 
 su eric -c "yay -Syu --noconfirm gnome-shell-extension-dash-to-dock"
 su eric -c "yay -Syu --noconfirm gnome-terminal-transparency"
+
+su eric -c "yay -Syu --noconfirm vscodium-bin"
+/chroot_install/610-vscodium-personal-settings.sh
+
 su eric -c "yay -Syu --noconfirm pamac-aur"
-#su eric -c "yay -Syu --noconfirm vscodium-bin"
+/chroot_install/620-pamac-settings.sh
+
+
+

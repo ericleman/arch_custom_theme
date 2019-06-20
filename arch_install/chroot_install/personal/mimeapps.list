@@ -1,0 +1,6 @@
+[Default Applications]
+text/plain=vscodium-bin.desktop
+
+[Added Associations]
+text/plain=vscodium-bin.desktop;
+application/xml=vscodium-bin.desktop;
