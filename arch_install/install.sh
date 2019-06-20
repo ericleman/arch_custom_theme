@@ -14,12 +14,14 @@ PASSWORD=$1
 DESKTOP=gnome
 HARDWARE=vmware
 SWAP_SIZE=12
+LTS=no
 
 echo "USERNAME is: $USERNAME"
 echo "PASSWORD is: $PASSWORD"
 echo "DESKTOP is: $DESKTOP"
 echo "HARDWARE is: $HARDWARE"
 echo "SWAP_SIZE is: $SWAP_SIZE"
+echo "LTS is: $LTS"
 
 echo '' && echo ''
 echo '************************************************'
@@ -45,7 +47,7 @@ then
       set 1 boot on
 fi
 
-mkfs.vfat -F32 /dev/sda1
+mkfs.fat -F32 /dev/sda1
 mkswap /dev/sda2
 swapon /dev/sda2
 mkfs.ext4 /dev/sda3
@@ -69,11 +71,12 @@ echo '************************************************'
 echo '**************** PacStrapping Package'
 echo '************************************************'
 echo '************************************************'
-#si pas LTS:
-pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng grub os-prober sudo wget openssh efibootmgr
-#si LTS:
-#pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng  grub os-prober sudo wget openssh efibootmgr linux-lts
-#if [ "$1" == "vbox" ]; then pacstrap /mnt efibootmgr; fi
+if [ "$LTS" == "lts" ]
+then
+    pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng grub os-prober sudo wget openssh efibootmgr linux-lts
+else
+    pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng grub os-prober sudo wget openssh efibootmgr
+fi
 
 echo '' && echo ''
 echo '************************************************'
@@ -100,7 +103,7 @@ echo '************************************************'
 echo '************************************************'
 cp -R ./chroot_install /mnt
 chmod 777 /mnt/chroot_install/chroot.sh
-arch-chroot /mnt ./chroot_install/chroot.sh "$USERNAME" "$PASSWORD" "$DESKTOP" "$HARDWARE" |& tee /mnt/chroot_install/install.log
+arch-chroot /mnt ./chroot_install/chroot.sh "$USERNAME" "$PASSWORD" "$DESKTOP" "$HARDWARE" "$LTS" |& tee /mnt/chroot_install/install.log
 
 echo '' && echo ''
 echo '************************************************'
