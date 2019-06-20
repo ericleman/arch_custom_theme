@@ -15,19 +15,6 @@ echo "DESKTOP is: $DESKTOP"
 echo "HARDWARE is: $HARDWARE"
 echo "LTS is: $LTS"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 echo '' && echo ''
 echo '************************************************'
 echo '************************************************'
@@ -38,8 +25,6 @@ echo "Archlinux" > /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1     localhost" >> /etc/hosts
 echo "127.0.0.1 Archlinux.localdomain Archlinux" >> /etc/hosts
-
-
 
 echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 echo "en_DK.UTF-8 UTF-8" >> /etc/locale.gen
@@ -105,4 +90,13 @@ else
 fi
 grub-install --target=x86_64-efi --efi-directory=/boot
 grub-mkconfig -o /boot/grub/grub.cfg
+
+echo '' && echo ''
+echo '************************************************'
+echo '************************************************'
+echo '**************** Package installations'
+echo '************************************************'
+echo '************************************************'
+/chroot_install/00x-script-which-install-something.sh
+/chroot_install/00y-script-which-install-something-else.sh
 
