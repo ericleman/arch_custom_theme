@@ -108,7 +108,7 @@ echo '************************************************'
 echo '**************** Package installations'
 echo '************************************************'
 echo '************************************************'
-/chroot_install/050-xorg.sh
+#/chroot_install/050-xorg.sh
 if [ "$DESKTOP" == "gnome" ]; then /chroot_install/100-gnome-shell.sh; fi
 if [ "$HARDWARE" == "vbox" ]; then /chroot_install/130-virtualbox.sh $LTS; fi
 if [ "$HARDWARE" == "vmware" ]; then /chroot_install/130-vmware.sh; fi
