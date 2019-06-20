@@ -99,6 +99,7 @@ echo '**************** CHROOTing'
 echo '************************************************'
 echo '************************************************'
 cp -R ./chroot_install /mnt
+chmod 777 /mnt/chroot_install/chroot.sh
 arch-chroot /mnt ./chroot_install/chroot.sh "$USERNAME" "$PASSWORD" "$DESKTOP" "$HARDWARE" |& tee /mnt/chroot_install/install.log
 
 echo '' && echo ''
