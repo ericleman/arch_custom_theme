@@ -168,7 +168,7 @@ num-workspaces=2
 titlebar-font='Roboto Bold 11'
 
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/backgrounds/gnome/Icescape.jpg'
+picture-uri='file:///usr/share/backgrounds/gnome/RainDrops.jpg'
 primary-color='#ffffff'
 picture-options='zoom'
 secondary-color='#000000'
