@@ -1,5 +1,16 @@
 #!/bin/bash
+echo "################################################################"
+echo "###########################    START      ######################"
+echo "################################################################"
+
 echo "We are in START now..."
 
 wget https://github.com/ericleman/arch/tarball/master -O - | tar xz
 
+cd ericleman*
+
+cd arch_install
+
+chmod 777 install.sh
+
+./install.sh $1
