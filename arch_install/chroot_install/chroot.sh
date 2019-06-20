@@ -53,9 +53,6 @@ echo '************************************************'
 echo '**************** Users (needs to be after vboxsf creation if we use vbox)'
 echo '************************************************'
 echo '************************************************'
-#if [ "$HARDWARE" == "vbox" ]; then vboxsf=",vboxsf"; fi
-#if [ "$HARDWARE" == "vmware" ]; then vboxsf=""; fi
-#useradd -m -s /bin/bash -G adm,systemd-journal,wheel,games,network,video,audio,optical,floppy,storage,scanner,power,input$vboxsf -c "Eric" eric
 useradd -m -s /bin/bash -G adm,systemd-journal,wheel,games,network,video,audio,optical,floppy,storage,scanner,power,input -c "Eric" eric
 echo -en "$PASSWORD\n$PASSWORD" | passwd "eric"
 chmod -R 777 /chroot_install/
@@ -97,6 +94,13 @@ echo '************************************************'
 echo '**************** Package installations'
 echo '************************************************'
 echo '************************************************'
-/chroot_install/00x-script-which-install-something.sh
-/chroot_install/00y-script-which-install-something-else.sh
+/chroot_install/040-yay.sh
+if [ "$DESKTOP" == "gnome" ]; then /chroot_install/100-gnome-shell.sh; fi
+/chroot_install/110-openssh.sh
+/chroot_install/120-ntp.sh
+if [ "$HARDWARE" == "vbox" ]; then /chroot_install/130-virtualbox.sh $LTS; fi
+if [ "$HARDWARE" == "vmware" ]; then /chroot_install/130-vmware.sh; fi
+/chroot_install/200-software.sh
+/chroot_install/300-AUR.sh
+
 

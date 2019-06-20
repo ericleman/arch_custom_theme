@@ -73,9 +73,9 @@ echo '************************************************'
 echo '************************************************'
 if [ "$LTS" == "lts" ]
 then
-    pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng grub os-prober sudo wget openssh efibootmgr linux-lts
+    pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng grub os-prober sudo wget efibootmgr linux-lts
 else
-    pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng grub os-prober sudo wget openssh efibootmgr
+    pacstrap /mnt base base-devel mc mtools dosfstools lsb-release ntfs-3g exfat-utils syslog-ng grub os-prober sudo wget efibootmgr
 fi
 
 echo '' && echo ''
