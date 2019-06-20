@@ -5,8 +5,6 @@ echo "################################################################"
 
 sudo -u eric dbus-launch dconf load / < /chroot_install/personal/gnome-settings.dconf
 
-su eric -c "dconf load / < /chroot_install/personal/gnome-settings.dconf"
-
 su eric -c "mkdir -p /home/eric/.config/gtk-3.0"
 su eric -c "cp /chroot_install/personal/gtk-3.0/settings.ini /home/eric/.config/gtk-3.0/settings.ini"
 
