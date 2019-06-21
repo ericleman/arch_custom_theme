@@ -16,5 +16,8 @@ su eric -c "yay -Syu --noconfirm vscodium-bin"
 su eric -c "yay -Syu --noconfirm pamac-aur"
 /chroot_install/620-pamac-settings.sh
 
+su eric -c "yay -Syu --noconfirm conky-lua"
+/chroot_install/630-conky-personal-settings.sh
+
 
 

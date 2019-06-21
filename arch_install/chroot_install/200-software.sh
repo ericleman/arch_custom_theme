@@ -23,5 +23,3 @@ pacman -S icedtea-web --noconfirm --needed
 pacman -S libreoffice-fresh --noconfirm --needed
 pacman -S chromium --noconfirm --needed
 pacman -S bleachbit --noconfirm --needed
-#pacman -S conky conky-manager --noconfirm --needed
-#pacman -S arcolinux-conky-collection-git --noconfirm --needed
