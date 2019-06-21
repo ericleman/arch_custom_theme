@@ -73,6 +73,11 @@ sed -i 's%#Color%Color%g' /etc/pacman.conf
 echo '[multilib]' >> /etc/pacman.conf
 echo 'Include = /etc/pacman.d/mirrorlist' >> /etc/pacman.conf
 echo '' >> /etc/pacman.conf
+
+#echo '[arcolinux_repo]' >> /etc/pacman.conf
+#echo 'SigLevel = Required DatabaseOptional TrustAll' >> /etc/pacman.conf
+#echo 'Server = https://arcolinux.github.io/arcolinux_repo/$arch' >> /etc/pacman.conf
+
 sed -i 's%#IgnorePkg   =%IgnorePkg = postgresql postgresql-libs %g' /etc/pacman.conf
 
 echo '' && echo ''
