@@ -22,4 +22,5 @@ pacman -S icedtea-web --noconfirm --needed
 
 pacman -S libreoffice-fresh --noconfirm --needed
 pacman -S chromium --noconfirm --needed
+pacman -S pepper-flash --noconfirm --needed
 pacman -S bleachbit --noconfirm --needed
