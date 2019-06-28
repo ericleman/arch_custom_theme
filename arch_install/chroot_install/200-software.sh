@@ -24,3 +24,8 @@ pacman -S libreoffice-fresh --noconfirm --needed
 pacman -S chromium --noconfirm --needed
 pacman -S pepper-flash --noconfirm --needed
 pacman -S bleachbit --noconfirm --needed
+
+# lib32-libpulse is required to get sound in wine.
+# to install Winamax, once downloaded the installer, run:
+# wine wamInstall.exe 
+pacman -S wine lib32-libpulse --noconfirm --needed
