@@ -9,8 +9,8 @@ name='nautilus'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Super>F2'
-command='code'
-name='code'
+command='vscodium'
+name='vscodium'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Super>Return'
