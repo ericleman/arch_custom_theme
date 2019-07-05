@@ -11,7 +11,7 @@ echo "################################################################"
 
 USERNAME=eric
 PASSWORD=$1
-DESKTOP=gnome
+DESKTOP=kde
 HARDWARE=vmware
 SWAP_SIZE=12
 LTS=no
