@@ -6,6 +6,10 @@ echo "################################################################"
 
 su eric -c "cp -rT /chroot_install/personal/kde /home/eric/.config"
 
+su eric -c "mkdir -p /home/eric/.local/share/dolphin"
+su eric -c "cp -rT /chroot_install/personal/dolphin/. /home/eric/.local/share/dolphin/"
+
+
 su eric -c "mkdir -p /home/eric/.local/share/konsole"
 su eric -c "cp -rT /chroot_install/personal/konsole/. /home/eric/.local/share/konsole/"
 
