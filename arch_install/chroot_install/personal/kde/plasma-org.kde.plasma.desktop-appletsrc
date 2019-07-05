@@ -6,34 +6,6 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-activityId=714af316-4fe6-4ff1-8eb5-4afd1026213a
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][Applets][21][Configuration][General]
-favoritesPortedToKAstats=true
-
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][Configuration]
-PreloadWeight=0
-
-[Containments][1][General]
-ToolBoxButtonState=left
-ToolBoxButtonX=5
-ToolBoxButtonY=94
-showToolbox=false
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/EveningGlow/contents/images/1920x1080.jpg
-
 [Containments][19]
 activityId=
 formfactor=2
@@ -50,12 +22,20 @@ plugin=org.kde.plasma.digitalclock
 [Containments][19][Applets][22][Configuration]
 PreloadWeight=0
 
+[Containments][19][Applets][22][Configuration][Appearance]
+showDate=true
+showSeconds=true
+
+[Containments][19][Applets][22][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][19][Applets][23]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][19][Applets][23][Configuration]
-PreloadWeight=18
+PreloadWeight=2
 SystrayContainmentId=24
 
 [Containments][19][Applets][34]
@@ -63,7 +43,7 @@ immutability=1
 plugin=org.kde.plasma.kickerdash
 
 [Containments][19][Applets][34][Configuration]
-PreloadWeight=58
+PreloadWeight=42
 
 [Containments][19][Applets][34][Configuration][ConfigDialog]
 DialogHeight=540
@@ -83,7 +63,7 @@ immutability=1
 plugin=org.kde.windowbuttons
 
 [Containments][19][Applets][36][Configuration]
-PreloadWeight=42
+PreloadWeight=26
 
 [Containments][19][Applets][36][Configuration][AppMenu]
 appmenuBoldTitleWhenMenuDisplayed=true
@@ -124,7 +104,7 @@ immutability=1
 plugin=org.kde.windowtitle
 
 [Containments][19][Applets][37][Configuration]
-PreloadWeight=42
+PreloadWeight=26
 
 [Containments][19][Applets][37][Configuration][ConfigDialog]
 DialogHeight=540
@@ -140,7 +120,7 @@ immutability=1
 plugin=org.kde.windowappmenu
 
 [Containments][19][Applets][38][Configuration]
-PreloadWeight=42
+PreloadWeight=26
 
 [Containments][19][Applets][38][Configuration][ConfigDialog]
 DialogHeight=540
@@ -154,7 +134,7 @@ filterChildrenWindows=true
 
 [Containments][19][ConfigDialog]
 DialogHeight=72
-DialogWidth=1846
+DialogWidth=2046
 
 [Containments][19][Configuration]
 PreloadWeight=0
@@ -245,8 +225,29 @@ PreloadWeight=0
 extraItems=org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
 knownItems=org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
 
-[General]
+[Containments][39]
+activityId=61d41b18-0e14-439f-98a9-4cb3729a43b7
+formfactor=0
 immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][39][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][39][General]
+ToolBoxButtonState=left
+ToolBoxButtonY=27
+showToolbox=false
+
+[Containments][39][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/EveningGlow/contents/images/1920x1080.jpg
+
+[General]
+immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
