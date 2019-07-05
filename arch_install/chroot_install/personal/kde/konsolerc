@@ -1,11 +1,11 @@
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Profile 1.profile
 
 [Favorite Profiles]
 Favorites=
 
 [MainWindow]
-Height 1042=480
+Height 1042=482
 State=AAAA/wAAAAD9AAAAAAAAAoAAAAHCAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 2046=640
+Width 2046=648

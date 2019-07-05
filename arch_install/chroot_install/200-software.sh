@@ -8,10 +8,11 @@ DESKTOP=$1
 pacman -Syyu --noconfirm
 
 pacman -S screenfetch --noconfirm --needed
-pacman -S arc-gtk-theme materia-gtk-theme papirus-icon-theme --noconfirm --needed
+pacman -S arc-gtk-theme materia-gtk-theme papirus-icon-theme materia-kde kvantum-theme-materia --noconfirm --needed
 pacman -S bash-completion --noconfirm --needed
 pacman -S ttf-font-awesome ttf-dejavu ttf-roboto --noconfirm --needed
 pacman -S simplescreenrecorder --noconfirm --needed
+pacman -S xdg-user-dirs --noconfirm --needed
 
 ## Note on IcedTea: 
 ## Archlinux comes with several version of openjdk packages which cover the 'java-runtime-openjdk' requirement for Icedtea
@@ -36,5 +37,7 @@ if [ "$DESKTOP" == "kde" ]
 then
     pacman -S latte-dock --noconfirm --needed
     /chroot_install/640-latte-personal-settings.sh
+
+    pacman -S plasma5-applets-active-window-control --noconfirm --needed
 fi
 

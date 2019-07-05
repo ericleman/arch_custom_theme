@@ -22,6 +22,9 @@ favoritesPortedToKAstats=true
 DialogHeight=540
 DialogWidth=720
 
+[Containments][1][Configuration]
+PreloadWeight=34
+
 [Containments][1][General]
 ToolBoxButtonState=left
 ToolBoxButtonX=5
@@ -41,16 +44,26 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.appmenu
 
+[Containments][19][Applets][20][Configuration]
+PreloadWeight=34
+
+[Containments][19][Applets][20][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][19][Applets][22]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][19][Applets][22][Configuration]
+PreloadWeight=34
 
 [Containments][19][Applets][23]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][19][Applets][23][Configuration]
-PreloadWeight=55
+PreloadWeight=54
 SystrayContainmentId=24
 
 [Containments][19][Applets][34]
@@ -58,7 +71,7 @@ immutability=1
 plugin=org.kde.plasma.kickerdash
 
 [Containments][19][Applets][34][Configuration]
-PreloadWeight=100
+PreloadWeight=89
 
 [Containments][19][Applets][34][Configuration][ConfigDialog]
 DialogHeight=540
@@ -74,21 +87,54 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][19][Applets][35][Configuration]
+PreloadWeight=34
+
 [Containments][19][Applets][35][Configuration][General]
 length=1707
+
+[Containments][19][Applets][36]
+immutability=1
+plugin=org.kde.activeWindowControl
+
+[Containments][19][Applets][36][Configuration][AppMenu]
+appmenuBoldTitleWhenMenuDisplayed=true
+appmenuFillHeight=true
+
+[Containments][19][Applets][36][Configuration][Appearance]
+buttonOrder=close|maximize|minimize|alldesktops
+buttonSize=0.8
+buttonsDynamicWidth=true
+buttonsPosition=UpperRight
+buttonsStandalone=true
+buttonsVerticalCenter=true
+customAuroraeThemePath=/usr/share/aurorae/themes/Materia-Dark/
+doNotHideControlButtons=true
+horizontalScreenWidthPercent=0.056
+showButtonOnlyWhenMaximized=true
+showMaximize=true
+showMinimize=true
+showWindowTitle=false
+
+[Containments][19][Applets][36][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][19][ConfigDialog]
 DialogHeight=84
 DialogWidth=2046
 
+[Containments][19][Configuration]
+PreloadWeight=34
+
 [Containments][19][General]
-AppletOrder=34;20;35;23;22
+AppletOrder=34;36;20;35;23;22
 
 [Containments][24]
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
@@ -97,37 +143,67 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][24][Applets][25][Configuration]
+PreloadWeight=34
+
 [Containments][24][Applets][26]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][24][Applets][26][Configuration]
+PreloadWeight=49
 
 [Containments][24][Applets][27]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][24][Applets][27][Configuration]
+PreloadWeight=34
+
 [Containments][24][Applets][28]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
+
+[Containments][24][Applets][28][Configuration]
+PreloadWeight=39
 
 [Containments][24][Applets][29]
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][24][Applets][29][Configuration]
+PreloadWeight=34
+
 [Containments][24][Applets][30]
 immutability=1
 plugin=org.kde.discovernotifier
+
+[Containments][24][Applets][30][Configuration]
+PreloadWeight=39
 
 [Containments][24][Applets][31]
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][24][Applets][31][Configuration]
+PreloadWeight=34
+
 [Containments][24][Applets][32]
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][24][Applets][32][Configuration]
+PreloadWeight=39
+
 [Containments][24][Applets][33]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][24][Applets][33][Configuration]
+PreloadWeight=34
+
+[Containments][24][Configuration]
+PreloadWeight=34
 
 [Containments][24][General]
 extraItems=org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
