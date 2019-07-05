@@ -3,6 +3,8 @@ echo "################################################################"
 echo "########################### 200-software.sh ####################"
 echo "################################################################"
 
+DESKTOP=$1
+
 pacman -Syyu --noconfirm
 
 pacman -S screenfetch --noconfirm --needed
@@ -33,5 +35,6 @@ pacman -S bleachbit --noconfirm --needed
 if [ "$DESKTOP" == "kde" ]
 then
     pacman -S latte-dock --noconfirm --needed
+    /chroot_install/640-latte-personal-settings.sh
 fi
 
