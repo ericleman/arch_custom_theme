@@ -10,8 +10,8 @@ pacman -S xorg-server sddm plasma-meta dolphin konsole kde-gtk-config --noconfir
 
 #for SDDM we need French keyboard:
 #localectl set-x11-keymap fr
-mkdir -p /etc/x11/xorg.conf.d
-cp /chroot_install/personal/00-keyboard.conf /etc/x11/xorg.conf.d/00-keyboard.conf
+mkdir -p /etc/X11/xorg.conf.d
+cp /chroot_install/personal/00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
 
 
 systemctl enable sddm.service
