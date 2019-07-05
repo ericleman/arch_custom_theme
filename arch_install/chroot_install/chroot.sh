@@ -83,12 +83,12 @@ sed -i 's%#IgnorePkg   =%IgnorePkg = postgresql postgresql-libs %g' /etc/pacman.
 echo '' && echo ''
 echo '************************************************'
 echo '************************************************'
-echo '**************** YAY (need to be after eric creation)'
+echo '**************** trizen (need to be after eric creation)'
 echo '************************************************'
 echo '************************************************'
 pacman -Syyu --noconfirm git
-su - eric -c "cd /home/eric && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -csi --noconfirm --skippgpcheck && cd .."
-rm -rf /home/eric/yay
+su - eric -c "cd /home/eric && git clone https://aur.archlinux.org/trizen.git && cd trizen && makepkg -csi --noconfirm --skippgpcheck && cd .."
+rm -rf /home/eric/trizen
 
 
 

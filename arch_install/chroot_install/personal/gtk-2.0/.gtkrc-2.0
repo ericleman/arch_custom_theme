@@ -1,11 +1,17 @@
 # File created by KDE Gtk Config
-# Configs for GTK2 programs
+# Configs for GTK2 programs 
 
-include "/home/eric/.gtkrc-2.0.mine"
+include "/usr/share/themes/Materia-dark-compact/gtk-2.0/gtkrc"
+style "user-font" 
+{
+	font_name="Noto Sans Regular"
+}
+widget_class "*" style "user-font"
 gtk-font-name="Noto Sans Regular 10"
-gtk-theme-name="Adapta"
-gtk-icon-theme-name="Paper"
-gtk-cursor-theme-name="Capitaine-cursors"
+gtk-theme-name="Materia-dark-compact"
+gtk-icon-theme-name="Papirus-Dark"
+gtk-fallback-icon-theme="Adwaita"
+gtk-cursor-theme-name="capitaine-cursors"
 gtk-toolbar-style=GTK_TOOLBAR_ICONS
 gtk-menu-images=1
 gtk-button-images=1

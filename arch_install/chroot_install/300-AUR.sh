@@ -7,22 +7,31 @@ DESKTOP=$1
 
 if [ "$DESKTOP" == "gnome" ]
 then
-    su eric -c "yay -Syu --noconfirm gnome-shell-extension-dash-to-dock"
+    su eric -c "trizen -Syu --noconfirm gnome-shell-extension-dash-to-dock"
 
     pacman -R --noconfirm gnome-terminal
-    su eric -c "yay -Syu --noconfirm gnome-terminal-transparency"
+    su eric -c "trizen -Syu --noconfirm gnome-terminal-transparency"
 
-    su eric -c "yay -Syu --noconfirm pamac-aur"
+    su eric -c "trizen -Syu --noconfirm pamac-aur"
     /chroot_install/620-pamac-settings.sh
 
-    su eric -c "yay -Syu --noconfirm conky-lua"
+    su eric -c "trizen -Syu --noconfirm conky-lua"
     /chroot_install/630-conky-personal-settings.sh
 fi
 
+if [ "$DESKTOP" == "kde" ]
+then
+    su eric -c "trizen -Syu --noconfirm octopi"
+    /chroot_install/650-octopi-personal-settings.sh
 
-su eric -c "yay -Syu --noconfirm capitaine-cursors"
+    su eric -c "trizen -Syu --noconfirm plasma5-applets-window-appmenu"
+    su eric -c "trizen -Syu --noconfirm plasma5-applets-window-buttons"
+    su eric -c "trizen -Syu --noconfirm plasma5-applets-window-title"
+fi
 
-su eric -c "yay -Syu --noconfirm vscodium-bin"
+su eric -c "trizen -Syu --noconfirm capitaine-cursors"
+
+su eric -c "trizen -Syu --noconfirm vscodium-bin"
 /chroot_install/610-vscodium-personal-settings.sh
 
 
