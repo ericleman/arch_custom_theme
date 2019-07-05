@@ -29,3 +29,9 @@ pacman -S bleachbit --noconfirm --needed
 # to install Winamax, once downloaded the installer, run:
 # wine wamInstall.exe 
 #pacman -S wine lib32-libpulse --noconfirm --needed
+
+if [ "$DESKTOP" == "kde" ]
+then
+    pacman -S latte-dock --noconfirm --needed
+fi
+
