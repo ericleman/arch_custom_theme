@@ -15,8 +15,7 @@ BlurStrength=8
 NoiseStrength=7
 
 [Effect-kwin4_effect_translucency]
-ComboboxPopups=80
-Dialogs=90
+MoveResize=79
 
 [MouseBindings]
 CommandActiveTitlebar1=Raise
