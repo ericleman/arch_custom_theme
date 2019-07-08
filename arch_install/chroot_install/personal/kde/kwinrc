@@ -8,7 +8,7 @@ OpenGLIsUnsafe=false
 Id_1=4cda850e-11c8-41ac-b1d4-4add9e8a2cbf
 Id_2=9fd99037-3098-4440-b0a7-b04ee1e2f9ad
 Number=2
-Rows=1
+Rows=2
 
 [Effect-Blur]
 BlurStrength=8
