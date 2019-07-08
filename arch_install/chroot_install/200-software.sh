@@ -29,9 +29,10 @@ pacman -S vlc --noconfirm --needed
 pacman -S bleachbit --noconfirm --needed
 
 # lib32-libpulse is required to get sound in wine.
+# lib32-openal seems to be required for Pokerstars
 # to install Winamax, once downloaded the installer, run:
 # wine wamInstall.exe 
-pacman -S wine lib32-libpulse --noconfirm --needed
+pacman -S wine lib32-libpulse lib32-openal --noconfirm --needed
 
 if [ "$DESKTOP" == "kde" ]
 then
