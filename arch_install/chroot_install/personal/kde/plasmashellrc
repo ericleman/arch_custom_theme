@@ -20,6 +20,7 @@ thickness=36
 
 [ScreenConnectors]
 0=Virtual1
+1=Virtual2
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
