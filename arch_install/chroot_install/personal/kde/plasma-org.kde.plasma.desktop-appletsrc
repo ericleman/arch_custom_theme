@@ -248,7 +248,7 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.potd
 
 [Containments][40][ConfigDialog]
 DialogHeight=540
@@ -261,6 +261,10 @@ showToolbox=false
 
 [Containments][40][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/EveningGlow/contents/images/1920x1080.jpg
+
+[Containments][40][Wallpaper][org.kde.potd][General]
+FillMode=2
+Provider=natgeo
 
 [General]
 immutability=2
