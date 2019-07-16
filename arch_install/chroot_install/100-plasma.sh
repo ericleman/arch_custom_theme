@@ -4,7 +4,7 @@ echo "##################  100-plasma.sh #########################"
 echo "################################################################"
 
 pacman -Syyu --noconfirm
-pacman -S xorg-server sddm plasma-meta dolphin konsole kde-gtk-config --noconfirm --needed
+pacman -S xorg-server sddm plasma-meta dolphin konsole kde-gtk-config appmenu-gtk-module --noconfirm --needed
 # I choose not to install kde-applications but just: dolphin konsole
 
 # kdeutils-meta is a list of useful KDE applications, part of kde-applications-meta
