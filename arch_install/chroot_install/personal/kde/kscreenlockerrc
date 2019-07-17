@@ -3,3 +3,6 @@ update_info=kscreenlocker.upd:0.1-autolock
 
 [Greeter]
 Theme=com.github.varlesh.materia
+
+[Daemon]
+Timeout=60
