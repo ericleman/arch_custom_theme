@@ -132,9 +132,23 @@ fillWidth=true
 filterByScreen=true
 filterChildrenWindows=true
 
-[Containments][19][Applets][43]
+[Containments][19][Applets][45]
 immutability=1
-plugin=org.kde.plasma.pager
+plugin=org.kde.plasma.virtualdesktopbar
+
+[Containments][19][Applets][45][Configuration]
+PreloadWeight=42
+
+[Containments][19][Applets][45][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][19][Applets][45][Configuration][General]
+dropRedundantDesktops=true
+keepOneEmptyDesktop=true
+labelStyle=0
+showPlusButton=false
+wheelSwitchWrap=true
 
 [Containments][19][ConfigDialog]
 DialogHeight=72
@@ -144,7 +158,7 @@ DialogWidth=2046
 PreloadWeight=0
 
 [Containments][19][General]
-AppletOrder=34;37;38;43;23;22;36
+AppletOrder=34;37;38;45;23;22;36
 
 [Containments][24]
 activityId=

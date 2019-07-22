@@ -24,6 +24,12 @@ then
     su eric -c "trizen -Syu --noconfirm plasma5-applets-window-appmenu"
     su eric -c "trizen -Syu --noconfirm plasma5-applets-window-buttons"
     su eric -c "trizen -Syu --noconfirm plasma5-applets-window-title"
+    
+    su - eric -c "cd /home/eric && git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git && cd virtual-desktop-bar && mkdir build && cd build && cmake .. && make && sudo make install & cd .. & cd .."
+    rm -rf /home/eric/virtual-desktop-bar
+
+    
+    
 fi
 
 su eric -c "trizen -Syu --noconfirm pamac-aur pamac-tray-appindicator"
