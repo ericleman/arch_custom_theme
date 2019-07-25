@@ -17,6 +17,12 @@ NoiseStrength=7
 [Effect-kwin4_effect_translucency]
 MoveResize=79
 
+[ModifierOnlyShortcuts]
+Alt=
+Control=
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+Shift=
+
 [MouseBindings]
 CommandActiveTitlebar1=Raise
 CommandActiveTitlebar2=Start window tab drag
