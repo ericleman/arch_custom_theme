@@ -1,5 +1,13 @@
+[FileDialogSize]
+Height 1042=480
+Width 2046=668
+
+[KFileDialog Settings]
+detailViewIconSize=0
+
 [ScreenConnectors]
 10=Virtual1
+11=Virtual2
 
 [UniversalSettings]
 canDisableBorders=false

@@ -1,19 +1,46 @@
+[Containments][19][General]
+AppletOrder=34;37;38;45;23;22;36
+
 [Containments][2][General]
 AppletOrder=3;4;5;6;8;9
+
+[Containments][24][General]
+extraItems=org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.kdeconnect
+knownItems=org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.kdeconnect
+showAllItems=true
 
 [Containments][7][General]
 extraItems=org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
 knownItems=org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
 
+[DownloadDialog Settings]
+Height 1038=458
+Width 2042=700
+
 [PlasmaRunnerManager]
-LaunchCounts=1 services_org.kde.latte-dock.desktop,3 services_octopi.desktop,4 services_pamac-manager.desktop,1 services_kvantummanager.desktop,1 services_chromium.desktop
+LaunchCounts=1 services_wine-Programs-PokerStars.FR-PokerStars.fr.desktop,1 services_org.kde.latte-dock.desktop,5 services_org.kde.spectacle.desktop,4 services_wireshark.desktop,1 services_kcm_kdeconnect.desktop,2 services_org.kde.ksysguard.desktop,3 services_octopi.desktop,1 services_about-distro.desktop,1 services_org.kde.kcolorchooser.desktop,1 services_pamac-updater.desktop,1 services_org.kde.okular.desktop,6 services_systemsettings.desktop,2 services_wine-Programs-Winamax-Winamax Poker.desktop,5 services_pamac-manager.desktop,2 services_org.kde.kcalc.desktop,1 services_itweb-settings.desktop,1 baloosearch_/home/eric/LEMANE-10W/arch/arch_install/chroot_install/personal/kde/kdesurc,1 services_org.gnome.Calculator.desktop,1 services_kgamma.desktop,1 services_chromium.desktop,3 services_kvantummanager.desktop,1 services_org.kde.kolourpaint.desktop
 pluginWhiteList=services,desktopsessions,PowerDevil,calculator,unitconverter,shell,bookmarks,baloosearch,locations
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
 
 [PlasmaViews][Panel 19][Horizontal1846]
 thickness=30
 
+[PlasmaViews][Panel 19][Horizontal2042]
+thickness=30
+
 [PlasmaViews][Panel 19][Horizontal2046]
 thickness=27
+
+[PlasmaViews][Panel 19][Horizontal2048]
+thickness=30
+
+[PlasmaViews][Panel 19][Horizontal2560]
+thickness=30
+
+[PlasmaViews][Panel 19][Horizontal3840]
+thickness=30
 
 [PlasmaViews][Panel 2][Horizontal2046]
 thickness=36
