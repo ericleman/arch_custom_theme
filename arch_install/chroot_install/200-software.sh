@@ -13,7 +13,7 @@ pacman -S bash-completion --noconfirm --needed
 pacman -S ttf-font-awesome ttf-dejavu ttf-roboto --noconfirm --needed
 pacman -S simplescreenrecorder --noconfirm --needed
 pacman -S xdg-user-dirs --noconfirm --needed
-pacman -S xorg-server-xephyr --noconfirm --needed
+pacman -S xorg-server-xephyr qtile imagemagick --noconfirm --needed
 
 ## Note on IcedTea: 
 ## Archlinux comes with several version of openjdk packages which cover the 'java-runtime-openjdk' requirement for Icedtea
