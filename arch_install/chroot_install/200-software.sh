@@ -43,3 +43,5 @@ then
     #pacman -S plasma5-applets-active-window-control --noconfirm --needed
 fi
 
+pacman -S zsh zsh-completions --noconfirm --needed
+/chroot_install/660-zsh-personal-settings.sh
