@@ -91,4 +91,4 @@ ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Materia-Dark
+theme=__aurorae__svg__Materia-Light
