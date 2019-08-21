@@ -14,8 +14,41 @@ Rows=2
 BlurStrength=8
 NoiseStrength=7
 
+[Effect-CoverSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[Effect-Cube]
+BorderActivate=9
+BorderActivateCylinder=9
+BorderActivateSphere=9
+
+[Effect-DesktopGrid]
+BorderActivate=1
+DesktopNameAlignment=36
+LayoutMode=1
+
+[Effect-FlipSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[Effect-PresentWindows]
+BorderActivate=9
+BorderActivateAll=9
+BorderActivateClass=9
+
 [Effect-kwin4_effect_translucency]
 MoveResize=79
+
+[ElectricBorders]
+Bottom=None
+BottomLeft=None
+BottomRight=None
+Left=None
+Right=None
+Top=None
+TopLeft=ApplicationLauncher
+TopRight=None
 
 [ModifierOnlyShortcuts]
 Alt=
@@ -43,7 +76,10 @@ CommandWindowWheel=Scroll
 
 [Plugins]
 blurEnabled=true
-desktopchangeosdEnabled=false
+coverswitchEnabled=true
+desktopchangeosdEnabled=true
+flipswitchEnabled=true
+highlightwindowEnabled=true
 windowgeometryEnabled=false
 
 [Script-desktopchangeosd]
@@ -51,9 +87,33 @@ PopupHideDelay=1000
 TextOnly=false
 
 [TabBox]
+ActivitiesMode=1
+ApplicationsMode=0
+BorderActivate=9
+BorderAlternativeActivate=9
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
+DesktopMode=1
+HighlightWindows=true
+LayoutName=thumbnails
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
+
+[TabBoxAlternative]
+ActivitiesMode=1
+ApplicationsMode=0
+DesktopMode=1
+HighlightWindows=true
 LayoutName=org.kde.breeze.desktop
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
+
 
 [Windows]
 ActiveMouseScreen=false
