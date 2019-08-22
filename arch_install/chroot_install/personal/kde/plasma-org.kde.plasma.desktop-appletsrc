@@ -25,12 +25,12 @@ PreloadWeight=0
 [Containments][40][General]
 ToolBoxButtonState=left
 ToolBoxButtonY=27
-showToolbox=false
+pressToMoveHelp=false
 showToolbox=false
 sortMode=-1
 
 [Containments][40][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/EveningGlow/contents/images/1920x1080.jpg
+Image=file:///usr/share/wallpapers/summer_1am/contents/images/1920x1080.jpg
 
 [Containments][40][Wallpaper][org.kde.potd][General]
 FillMode=2
@@ -49,7 +49,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [General]
-immutability=2
+immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=

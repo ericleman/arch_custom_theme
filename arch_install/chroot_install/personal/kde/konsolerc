@@ -5,7 +5,13 @@ DefaultProfile=Profile 1.profile
 Favorites=
 
 [MainWindow]
-Height 1042=482
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAHCAAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 1038=473
+Height 1042=642
+Height 1240=1216
+State=AAAA/wAAAAD9AAAAAAAAA/8AAAG+AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 2046=648
+Width 1320=1320
+Width 2042=2042
+Width 2046=1023
+Window-Maximized 1000x2000=true
+Window-Maximized 1038x2042=true

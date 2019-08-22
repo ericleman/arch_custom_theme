@@ -1,8 +1,12 @@
 [$Version]
 update_info=kscreenlocker.upd:0.1-autolock
 
-[Greeter]
-Theme=com.github.varlesh.materia
-
 [Daemon]
-Timeout=60
+Autolock=false
+Timeout=99
+
+[Greeter]
+Theme=org.kde.breeze.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png

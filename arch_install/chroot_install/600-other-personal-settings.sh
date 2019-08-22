@@ -13,3 +13,7 @@ su eric -c "cp /chroot_install/personal/gtk-2.0/.gtkrc-2.0 /home/eric/.gtkrc-2.0
 
 su eric -c "mkdir -p /home/eric/.config/Kvantum"
 su eric -c "cp -rT /chroot_install/personal/Kvantum/. /home/eric/.config/Kvantum/"
+
+
+su eric -c "mkdir -p /home/eric/.local/share/color-schemes"
+su eric -c "cp -rT /chroot_install/personal/colors/. /home/eric/.local/share/color-schemes/"

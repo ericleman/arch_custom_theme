@@ -1,2 +1,5 @@
 [Style]
 MenuOpacity=51
+
+[Windeco]
+OpacitySlider=50

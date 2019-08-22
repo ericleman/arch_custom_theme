@@ -1,6 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-714af316-4fe6-4ff1-8eb5-4afd1026213a=none,none,Switch to activity "Default"
+switch-to-activity-fb2c8d26-253c-4d09-85b7-1a77aefc1604=none,none,Switch to activity "Default"
 switch-to-activity-fece3b7c-e202-45e2-8d13-4bfbd236e9b5=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -26,7 +27,11 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 [khotkeys]
 _k_friendly_name=KDE Daemon
 {099b51e0-08d6-4720-bedb-30aae4039516}=Meta+F2,none,VSCodium
+{1a6b488d-e4d5-484f-a7dc-b274628d7659}=Shift+Print,none,Take Full Screen Screenshot
+{1af54565-fe37-4644-a59a-af7ea8f27778}=Meta+Print,none,Take Active Window Screenshot
 {2457586f-6ae3-4863-b66f-b7d0acb901b6}=Meta+F1,none,Chromium
+{2a66572e-42a2-423f-8532-0e6da485d4ba}=Meta+Shift+Print,none,Take Rectangular Region Screenshot
+{4534e771-59c4-497b-8026-19c1048e433d}=Print,none,Start Screenshot Tool
 {6d7d01d2-f024-45bd-9a86-4b2b634942c4}=Meta+Return,none,Launch Konsole
 {8c60d9be-7d5e-421e-a30f-7f2a69d2bbac}=Meta+Shift+Return,none,Dolphin
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
@@ -55,10 +60,14 @@ _k_friendly_name=ksmserver
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
+Cube=Ctrl+F11,Ctrl+F11,Desktop Cube
+Cylinder=none,none,Desktop Cylinder
 Decrease Opacity=,none,Decrease Opacity of Active Window by 5 %
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10\tMeta+Tab,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
+FlipSwitchAll=none,none,Toggle Flip Switch (All desktops)
+FlipSwitchCurrent=none,none,Toggle Flip Switch (Current desktop)
 Increase Opacity=,none,Increase Opacity of Active Window by 5 %
 Invert Screen Colors=,none,Invert Screen Colors
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
@@ -72,6 +81,7 @@ Remove Window From Group=,none,Remove Window From Group
 Setup Window Shortcut=,none,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Show Desktop
 ShowDesktopGrid=Ctrl+F8\tMeta+²,Ctrl+F8,Show Desktop Grid
+Sphere=none,none,Desktop Sphere
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=,none,Switch One Desktop Down
 Switch One Desktop Up=,none,Switch One Desktop Up
@@ -197,6 +207,13 @@ Window to Screen 5=,none,Window to Screen 5
 Window to Screen 6=,none,Window to Screen 6
 Window to Screen 7=,none,Window to Screen 7
 _k_friendly_name=KWin
+addNewDesktop=none,none,Add New Desktop
+moveCurrentDesktopToLeft=none,none,Move Current Desktop To Left
+moveCurrentDesktopToRight=none,none,Move Current Desktop To Right
+removeCurrentDesktop=none,none,Remove Current Desktop
+removeLastDesktop=none,none,Remove Last Desktop
+renameCurrentDesktop=none,none,Rename Current Desktop
+switchToRecentDesktop=none,none,Switch to Recent Desktop
 view_actual_size=,Meta+0,Actual Size
 view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
@@ -250,10 +267,22 @@ new instance for entry 9=Meta+Ctrl+9,Meta+Ctrl+9,New Instance for Entry 9
 repeat_action=,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show dock settings=Meta+A,Meta+A,Show Dock Settings
 show latte dock=Meta+`,Meta+`,Show Dock
+show latte global settings=,Meta+W,Show Latte Global Settings
 show latte universal settings=Meta+E,Meta+E,Show Latte Settings
+show latte view=,Meta+`,Show Latte Dock/Panel
 show layout settings=Meta+W,Meta+W,Show Layout Settings
+show view settings=,Meta+A,Cycle Through Dock/Panel Settings Windows
 show-barcode=none,none,Show Barcode...
 show-on-mouse-pos=none,none,Open Klipper at Mouse Position
+
+[mediacontrol]
+_k_friendly_name=Media Controller
+mediavolumedown=none,none,Media volume down
+mediavolumeup=none,none,Media volume up
+nextmedia=Media Next,Media Next,Media playback next
+playpausemedia=Media Play,Media Play,Play/Pause media playback
+previousmedia=Media Previous,Media Previous,Media playback previous
+stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness

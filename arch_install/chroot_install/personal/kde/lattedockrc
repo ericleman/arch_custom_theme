@@ -5,19 +5,28 @@ Width 2046=668
 [KFileDialog Settings]
 detailViewIconSize=0
 
+[PlasmaRunnerManager]
+LaunchCounts=1 services_simplescreenrecorder.desktop,1 services_com.obsproject.Studio.desktop,7 services_kvantummanager.desktop,7 services_about-distro.desktop
+pluginWhiteList=services,desktopsessions,PowerDevil,calculator,unitconverter,shell,bookmarks,baloosearch,locations
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
 [ScreenConnectors]
 10=Virtual1
 11=Virtual2
 
 [UniversalSettings]
+badges3DStyle=false
 canDisableBorders=false
 currentLayout=My Layout
 downloadWindowSize=800,550
 lastNonAssignedLayout=My Layout
 launchers=
-layoutsColumnWidths=
-layoutsWindowSize=700,450
+layoutsColumnWidths=100,70,57,0
+layoutsWindowSize=700,605
 memoryUsage=0
+metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true

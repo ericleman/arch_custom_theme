@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=MateriaDark
+ColorScheme=Breeze
 
 [General]
 Command=/bin/zsh

@@ -1,14 +1,9 @@
-[$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
-
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=34,34,34
 ColorAmount=0.5
 ColorEffect=2
 ContrastAmount=0.65
 ContrastEffect=0
-Enable=
 IntensityAmount=0.5
 IntensityEffect=0
 
@@ -107,57 +102,13 @@ ForegroundNormal=255,255,255
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
-[DirSelect Dialog]
-DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/LEMANE-10W/Akava-Kv-master/Akava-Kv,file:$HOME/Videos,file:$HOME/Videos,file:$HOME/Videos
-
 [General]
-ColorScheme=Akava
-Name=Breeze
-XftAntialias=true
-XftHintStyle=
-XftSubPixel=none
+ColorScheme=Breeze Dark
+Name=Akava
 shadeSortColumn=true
-widgetStyle=Breeze
-
-[Icons]
-Theme=Papirus-Dark
 
 [KDE]
-ColorScheme=Breeze
-LookAndFeelPackage=org.kde.breeze.desktop
-ShowIconsInMenuItems=true
-ShowIconsOnPushButtons=true
-SingleClick=false
 contrast=4
-widgetStyle=kvantum
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=false
-Decoration position=0
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort reversed=false
-Speedbar Width=107
-View Style=DetailTree
-detailedViewIconSize=0
-
-[KShortcutsDialog Settings]
-Dialog Size=600,480
-
-[Toolbar style]
-ToolButtonStyle=TextBesideIcon
-ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
 activeBackground=44,44,44

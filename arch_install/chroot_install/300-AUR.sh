@@ -40,6 +40,6 @@ su eric -c "trizen -Syu --noconfirm capitaine-cursors"
 su eric -c "trizen -Syu --noconfirm vscodium-bin"
 /chroot_install/610-vscodium-personal-settings.sh
 
-
+su eric -c "trizen -Syu --noconfirm breeze-blurred-git"
 
 

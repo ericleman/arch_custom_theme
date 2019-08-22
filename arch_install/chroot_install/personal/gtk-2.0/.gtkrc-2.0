@@ -1,14 +1,14 @@
 # File created by KDE Gtk Config
 # Configs for GTK2 programs 
 
-include "/usr/share/themes/Materia-dark-compact/gtk-2.0/gtkrc"
+include "/usr/share/themes/Breeze/gtk-2.0/gtkrc"
 style "user-font" 
 {
 	font_name="Noto Sans Regular"
 }
 widget_class "*" style "user-font"
 gtk-font-name="Noto Sans Regular 10"
-gtk-theme-name="Materia-dark-compact"
+gtk-theme-name="Breeze"
 gtk-icon-theme-name="Papirus-Dark"
 gtk-fallback-icon-theme="Adwaita"
 gtk-cursor-theme-name="capitaine-cursors"
@@ -16,3 +16,4 @@ gtk-toolbar-style=GTK_TOOLBAR_ICONS
 gtk-menu-images=1
 gtk-button-images=1
 gtk-primary-button-warps-slider=0
+gtk-modules=appmenu-gtk-module
