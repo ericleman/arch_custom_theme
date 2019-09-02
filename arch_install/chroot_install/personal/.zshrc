@@ -112,4 +112,4 @@ compinit
 # End of lines added by compinstall
 
 alias ls='ls --color=auto'
-screenfetch
+screenfetch | lolcat

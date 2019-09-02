@@ -7,7 +7,7 @@ DESKTOP=$1
 
 pacman -Syyu --noconfirm
 
-pacman -S screenfetch --noconfirm --needed
+pacman -S screenfetch lolcat --noconfirm --needed
 pacman -S gnome-icon-theme arc-gtk-theme materia-gtk-theme papirus-icon-theme materia-kde kvantum-qt5 kvantum-theme-materia --noconfirm --needed
 pacman -S bash-completion --noconfirm --needed
 pacman -S ttf-font-awesome ttf-dejavu ttf-roboto --noconfirm --needed
