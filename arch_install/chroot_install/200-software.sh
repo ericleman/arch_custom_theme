@@ -23,6 +23,7 @@ pacman -S xorg-server-xephyr xorg-server-xvfb qtile imagemagick --noconfirm --ne
 pacman -S jre8-openjdk --noconfirm --needed
 pacman -S icedtea-web --noconfirm --needed
 
+
 pacman -S libreoffice-fresh --noconfirm --needed
 pacman -S chromium --noconfirm --needed
 pacman -S pepper-flash --noconfirm --needed
@@ -34,6 +35,10 @@ pacman -S bleachbit --noconfirm --needed
 # to install Winamax, once downloaded the installer, run:
 # wine wamInstall.exe 
 pacman -S wine lib32-libpulse lib32-openal --noconfirm --needed
+
+# maybe required for Hand2Note on Wine
+pacman -S lib32-gnutls lib32-mpg123 wine-mono winetricks --noconfirm --needed
+# plus tard il faudra faire à la main: winetricks dotnet472
 
 if [ "$DESKTOP" == "kde" ]
 then
