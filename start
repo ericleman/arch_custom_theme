@@ -9,7 +9,7 @@ curl -L https://github.com/ericleman/arch/archive/master.zip --output master.zip
 
 bsdtar -x -f master.zip
 
-cd arch_master
+cd arch-master
 
 cd arch_install
 
