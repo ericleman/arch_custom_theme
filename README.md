@@ -31,3 +31,6 @@ In `arch_install/chroot_install/chroot.sh`, edit the soft to install:
 
 remove orphans:  
 `sudo pacman -Rns $(pacman -Qtdq)`  
+
+# My VMWare config
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.31.png)
