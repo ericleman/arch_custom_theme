@@ -62,8 +62,8 @@ echo '**************** Configure French Repository'
 echo '************************************************'
 echo '************************************************'
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-sed -i 's%Server%#Server%g' /etc/pacman.d/mirrorlist
-sed -i 's%#Server = http://archlinux.mailtunnel.eu/$repo/os/$arch%Server = http://archlinux.mailtunnel.eu/$repo/os/$arch%g' /etc/pacman.d/mirrorlist
+#sed -i 's%Server%#Server%g' /etc/pacman.d/mirrorlist
+#sed -i 's%#Server = http://archlinux.mailtunnel.eu/$repo/os/$arch%Server = http://archlinux.mailtunnel.eu/$repo/os/$arch%g' /etc/pacman.d/mirrorlist
 
 echo '' && echo ''
 echo '************************************************'
