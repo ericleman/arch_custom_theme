@@ -6,7 +6,7 @@
 
 or
 
-`curl -L https://git.io/fjVgK --output start`  
+`curl -L https://git.io/fjVgK -o start`  
 `sh start [password]`
 
 # Customization before launching these scripts
