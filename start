@@ -5,9 +5,11 @@ echo "################################################################"
 
 echo "We are in START now..."
 
-wget https://github.com/ericleman/arch/tarball/master -O - | tar xz
+curl -L https://github.com/ericleman/arch/archive/master.zip --output master.zip
 
-cd ericleman*
+bsdtar -x -f master.zip
+
+cd arch_master
 
 cd arch_install
 
