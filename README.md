@@ -34,3 +34,13 @@ remove orphans:
 
 # My VMWare config
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.31.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.45.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.51.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.53.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.57.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.38.02.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.38.33.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.38.40.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.39.11.png)
+![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-20%2012.23.18.png)
+
