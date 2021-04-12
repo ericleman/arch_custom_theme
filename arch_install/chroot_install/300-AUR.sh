@@ -38,6 +38,8 @@ su eric -c "trizen -Syu --noconfirm pamac-aur pamac-tray-appindicator"
 
 su eric -c "trizen -Syu --noconfirm capitaine-cursors"
 
+su eric -c "trizen -Syu --noconfirm google-chrome"
+
 su eric -c "trizen -Syu --noconfirm vscodium-bin"
 /chroot_install/610-vscodium-personal-settings.sh
 
