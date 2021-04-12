@@ -19,8 +19,8 @@ name='gnome-terminal'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Super>F3'
-command='chromium'
-name='chromium'
+command='google-chrome'
+name='google-chrome'
 
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-type='nothing'
