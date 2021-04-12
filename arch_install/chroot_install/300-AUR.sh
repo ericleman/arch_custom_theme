@@ -33,12 +33,24 @@ then
     
 fi
 
+echo "################################################################"
+echo "########################### 302-AUR.sh #########################"
+echo "################################################################"
+
 su eric -c "trizen -Syu --noconfirm pamac-aur pamac-tray-appindicator"
 /chroot_install/620-pamac-settings.sh
 
 su eric -c "trizen -Syu --noconfirm capitaine-cursors"
 
+echo "################################################################"
+echo "########################### 303-AUR.sh #########################"
+echo "################################################################"
+
 su eric -c "trizen -Syu --noconfirm google-chrome"
+
+echo "################################################################"
+echo "########################### 304-AUR.sh #########################"
+echo "################################################################"
 
 su eric -c "trizen -Syu --noconfirm vscodium-bin"
 /chroot_install/610-vscodium-personal-settings.sh
