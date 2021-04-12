@@ -87,7 +87,7 @@ echo '**************** trizen (need to be after eric creation)'
 echo '************************************************'
 echo '************************************************'
 pacman -Syyu --noconfirm git
-su - eric -c "cd /home/eric && git clone https://aur.archlinux.org/trizen.git && cd trizen && makepkg -csi --noconfirm --skippgpcheck && cd .."
+su - eric -c "cd /home/eric && git config --global http.sslVerify false && git clone https://aur.archlinux.org/trizen.git && cd trizen && makepkg -csi --noconfirm --skippgpcheck && cd .."
 rm -rf /home/eric/trizen
 
 
