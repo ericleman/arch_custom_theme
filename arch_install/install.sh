@@ -12,7 +12,7 @@ echo "################################################################"
 USERNAME=eric
 PASSWORD=$1
 DESKTOP=kde
-HARDWARE=vbox
+HARDWARE=vmware
 SWAP_SIZE=12
 LTS=no
 
