@@ -46,6 +46,9 @@ Then on local PC, command line:
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.31.png)
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.45.png)
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.51.png)
+
+**It seems to work (no certificate issue) while on VPN and VMNet 10 (directly to wifi card):**
+
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.53.png)
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.37.57.png)
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.38.02.png)
