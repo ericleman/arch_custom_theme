@@ -30,11 +30,12 @@ showToolbox=false
 sortMode=-1
 
 [Containments][40][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/summer_1am/contents/images/1920x1080.jpg
+Image=/usr/share/wallpapers/summer_1am/
+SlidePaths=/usr/share/wallpapers
 
 [Containments][40][Wallpaper][org.kde.potd][General]
 FillMode=2
-Provider=natgeo
+Provider=epod
 
 [Containments][42]
 activityId=fb2c8d26-253c-4d09-85b7-1a77aefc1604
