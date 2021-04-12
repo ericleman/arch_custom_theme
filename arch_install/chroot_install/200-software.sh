@@ -21,6 +21,7 @@ pacman -S xorg-server-xephyr xorg-server-xvfb qtile imagemagick --noconfirm --ne
 ## However, jre-openjdk does not work with Prorealtime. We need jre8-openjdk
 ## So we need to install jre8-openjdk first so the 'java-runtime-openjdk' requirement is already fulfilled when installing icedtea-web
 pacman -S jre8-openjdk --noconfirm --needed
+pacman -S java8-openjfx --noconfirm --needed
 pacman -S icedtea-web --noconfirm --needed
 
 
