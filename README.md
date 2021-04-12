@@ -54,13 +54,5 @@ Then on local PC, command line:
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-18%2015.39.11.png)
 ![Image description](https://github.com/ericleman/arch/blob/master/pictures/2019-06-20%2012.23.18.png)
 
-# Otherwise, run SSH on VMWare
-Not on VPN, with NAT, on latest ISO:
-`loadkeys fr-pc` # i.e.: loqdkeys fr)pc
-`passwd` # type a password for root
-`systemctl start sshd`
-`ifconfig` # note IP address
-
-
 
 
