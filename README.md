@@ -1,12 +1,12 @@
 ﻿# arch
 `loadkeys fr-pc` # i.e.: loqdkeys fr)pc
 
-`curl -L https://github.com/ericleman/arch/raw/master/start --output start`  
+`curl -k -L https://github.com/ericleman/arch/raw/master/start --output start`  
 `sh start [password]`
 
 or
 
-`curl -L https://git.io/fjVgK -o start`  
+`curl -k -L https://git.io/fjVgK -o start`  
 `sh start [password]`
 
 # Customization before launching these scripts
