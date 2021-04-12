@@ -15,6 +15,10 @@ pacman -S simplescreenrecorder --noconfirm --needed
 pacman -S xdg-user-dirs --noconfirm --needed
 pacman -S xorg-server-xephyr xorg-server-xvfb qtile imagemagick --noconfirm --needed
 
+echo "################################################################"
+echo "########################### 201-software.sh ####################"
+echo "################################################################"
+
 ## Note on IcedTea: 
 ## Archlinux comes with several version of openjdk packages which cover the 'java-runtime-openjdk' requirement for Icedtea
 ## By default, Icedtea will install as dependency jre-openjdk (which is the latest java version)
@@ -24,6 +28,9 @@ pacman -S jre8-openjdk --noconfirm --needed
 pacman -S java8-openjfx --noconfirm --needed
 pacman -S icedtea-web --noconfirm --needed
 
+echo "################################################################"
+echo "########################### 202-software.sh ####################"
+echo "################################################################"
 
 #pacman -S libreoffice-fresh --noconfirm --needed
 # pacman -S chromium --noconfirm --needed # I use Chrome instead
@@ -41,6 +48,10 @@ pacman -S bleachbit --noconfirm --needed
 #pacman -S lib32-gnutls lib32-mpg123 wine-mono winetricks --noconfirm --needed
 # plus tard il faudra faire à la main: winetricks dotnet472
 
+echo "################################################################"
+echo "########################### 203-software.sh ####################"
+echo "################################################################"
+
 if [ "$DESKTOP" == "kde" ]
 then
     pacman -S latte-dock --noconfirm --needed
@@ -48,6 +59,10 @@ then
 
     #pacman -S plasma5-applets-active-window-control --noconfirm --needed
 fi
+
+echo "################################################################"
+echo "########################### 204-software.sh ####################"
+echo "################################################################"
 
 pacman -S zsh zsh-completions --noconfirm --needed
 /chroot_install/660-zsh-personal-settings.sh
