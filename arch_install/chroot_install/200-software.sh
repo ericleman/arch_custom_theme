@@ -26,7 +26,7 @@ pacman -S icedtea-web --noconfirm --needed
 
 
 #pacman -S libreoffice-fresh --noconfirm --needed
-pacman -S chromium --noconfirm --needed
+# pacman -S chromium --noconfirm --needed # I use Chrome instead
 pacman -S pepper-flash --noconfirm --needed
 pacman -S vlc --noconfirm --needed
 pacman -S bleachbit --noconfirm --needed
