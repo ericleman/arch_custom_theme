@@ -55,6 +55,10 @@ echo "################################################################"
 su eric -c "trizen -Syu --noconfirm vscodium-bin"
 /chroot_install/610-vscodium-personal-settings.sh
 
+echo "################################################################"
+echo "########################### 305-AUR.sh #########################"
+echo "################################################################"
+
 su eric -c "trizen -Syu --noconfirm breeze-blurred-git"
 
 
