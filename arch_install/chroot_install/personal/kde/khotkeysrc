@@ -120,14 +120,14 @@ Uuid={099b51e0-08d6-4720-bedb-30aae4039516}
 [Data_1_5]
 Comment=Comment
 Enabled=true
-Name=Chromium
+Name=Chrome
 Type=SIMPLE_ACTION_DATA
 
 [Data_1_5Actions]
 ActionsCount=1
 
 [Data_1_5Actions0]
-CommandURL=chromium.desktop
+CommandURL=google-chrome.desktop
 Type=MENUENTRY
 
 [Data_1_5Conditions]
