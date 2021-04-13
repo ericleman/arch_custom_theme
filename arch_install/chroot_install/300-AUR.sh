@@ -37,7 +37,7 @@ echo "################################################################"
 echo "########################### 302-AUR.sh #########################"
 echo "################################################################"
 
-su eric -c "trizen -Syu --noconfirm pamac-aur pamac-tray-appindicator"
+su eric -c "trizen -Syu --noconfirm pamac-aur pamac-tray-icon-plasma"
 /chroot_install/620-pamac-settings.sh
 
 su eric -c "trizen -Syu --noconfirm capitaine-cursors"
