@@ -34,7 +34,7 @@ echo "################################################################"
 
 #pacman -S libreoffice-fresh --noconfirm --needed
 # pacman -S chromium --noconfirm --needed # I use Chrome instead
-pacman -S pepper-flash --noconfirm --needed
+# pacman -S pepper-flash --noconfirm --needed # does not exist since 2021
 pacman -S vlc --noconfirm --needed
 pacman -S bleachbit --noconfirm --needed
 
