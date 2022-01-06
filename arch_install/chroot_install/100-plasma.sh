@@ -8,10 +8,10 @@ pacman -S xorg-server sddm plasma-meta dolphin konsole kde-gtk-config appmenu-gt
 # I choose not to install kde-applications but just: dolphin konsole
 
 # kdeutils-meta is a list of useful KDE applications, part of kde-applications-meta
-pacman -S kdeutils-meta --noconfirm --needed
+pacman -S kde-utilities-meta --noconfirm --needed
 
 # kdegraphics-meta is a list of useful KDE applications (screenshot, ...), part of kde-applications-meta
-pacman -S kdegraphics-meta --noconfirm --needed
+pacman -S kde-graphics-meta --noconfirm --needed
 
 #for SDDM we need French keyboard:
 #localectl set-x11-keymap fr
