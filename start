@@ -9,7 +9,7 @@ curl -L https://github.com/ericleman/arch_custom_theme/archive/master.zip --outp
 
 bsdtar -x -f master.zip
 
-cd arch-master
+cd arch_custom_theme-master
 
 cd arch_install
 
