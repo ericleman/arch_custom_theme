@@ -5,7 +5,7 @@ echo "################################################################"
 
 echo "We are in START now..."
 
-curl -L https://github.com/ericleman/arch/archive/master.zip --output master.zip
+curl -L https://github.com/ericleman/arch_custom_theme/archive/master.zip --output master.zip
 
 bsdtar -x -f master.zip
 
