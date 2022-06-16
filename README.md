@@ -5,10 +5,6 @@
 `curl -k -L https://github.com/ericleman/arch_custom_theme/raw/master/start --output start`  
 `sh start [password]`
 
-or
-
-`curl -k -L https://git.io/fjVgK -o start`  
-`sh start [password]`
 
 # Customization before launching these scripts
 On github, configure these files if need be:  
